@@ -1,117 +1,239 @@
-WCopy 1.0.0
-===========
+# WCopy
 
-WCopy is part of the W-Series by ezWhy.com. It helps Windows users manage,
-find, reuse and paste Clipboard content through a simple, modern workflow.
+> **You didn't lose what you copied. You just copied something else after it.**
 
-System Requirements
--------------------
+WCopy is a lightweight Clipboard Manager for Windows that helps you find, organize, and reuse things you've copied before.
 
-* Windows 10 or Windows 11
-* x64-compatible system
+Instead of going back to an old browser tab, document, or conversation just to copy the same thing again, WCopy keeps it ready when you need it.
 
-Included Files
---------------
+## Features
 
-* WCopy_Setup_v1.0.0.exe
-* VERSION.txt
-* CHANGELOG.txt
-* README.txt
+- Clipboard History for text and images
+- Search previous clipboard items
+- Pinned items
+- Favorites
+- Snippets
+- Collections
+- Quick Popup for fast paste
+- Quick Snip with annotation tools
+- Import / Export
+- Light / Dark / System appearance
+- English / Vietnamese
+- Start with Windows
 
-Installation
-------------
+### Quick Snip
 
-1. Download the installer from the official WCopy page or another official
-   ezWhy release source.
-2. Run WCopy_Setup_v1.0.0.exe.
-3. Review and accept the installer EULA.
-4. Follow the installation steps.
-5. Launch WCopy from the Start Menu or the optional Desktop shortcut.
+Capture part of your screen and quickly add:
 
-The default installation location is:
+- Arrow
+- Line
+- Rectangle
+- Ellipse
+- Colors
+- Stroke width
+- Fill color and opacity
+- Undo
 
-C:\Program Files\ezWhy\WCopy
+Then **Save & Copy** the result directly to your Clipboard.
 
-Updating
---------
+## Free & Pro
 
-You may install a newer WCopy version over an older version unless its release
-notes say otherwise. WCopy is designed to preserve local user data during an
-update.
+WCopy Free includes the main Clipboard workflow for everyday use.
 
-Uninstalling
-------------
+### Free
 
-Uninstall WCopy from Windows Settings or Control Panel. Uninstalling removes
-the application but intentionally preserves local user data by default.
+- Clipboard History
+- Search
+- Pinned
+- Favorites
+- Snippets
+- Collections
+- Quick Popup
+- Quick Snip
+- Import / Export
+- History and storage controls
 
-The common user-data root is:
+### Pro
 
-%APPDATA%\ezWhy\WCopy
+WCopy Pro adds:
 
-Only remove that folder manually if you understand its contents and no longer
-need your WCopy History, reusable content, settings, media or protected license
-state.
+- **Smart Paste** — transform text before pasting
+- **Quick Slots** — quickly access frequently used content from Quick Popup
 
-Clipboard and App Behavior
---------------------------
+WCopy Pro is a one-time purchase.
 
-WCopy can monitor the Windows Clipboard while capture is active. Depending on
-your settings and actions, it can retain text, formatted text, images, History,
-Pins, Favorites, Snippets, Collections and Quick Slots on the device.
+## Local First
 
-Use WCopy's retention settings and clear/delete controls when handling sensitive
-Clipboard content. Quick Popup, Quick Snip and Start with Windows use Windows
-integration and global shortcuts; a shortcut can be unavailable when another
-application already owns it.
+WCopy is designed around a **Local First** approach.
 
-Privacy and Network Notice
---------------------------
+Your Clipboard History, images, Favorites, Snippets, Collections, and other reusable content are stored locally on your computer.
 
-Clipboard content, History, images, Snippets, Collections, Quick Slots and
-Smart Paste content are not sent as part of update checking or licensing.
+User data is stored under:
 
-WCopy may contact:
+`%APPDATA%\ezWhy\WCopy`
 
-* the ezWhy update endpoint to check whether a newer WCopy version exists; and
-* Lemon Squeezy to activate, check or deactivate a Pro license, or when the
-  governed license lifecycle requires validation.
+## System Requirements
 
-Update and license requests are separate. WCopy does not automatically download
-or install updates. Review the in-app About and License information and the
-official legal pages for further details.
+- Windows 10 / 11
+- 64-bit
+- Current version: **1.0.0**
 
-External Components
--------------------
+## Download
 
-WCopy does not require a separate third-party executable for its normal user
-workflow. Bundled runtime and framework components remain subject to their
-applicable licenses and notices.
+Download WCopy from the official website:
 
-Signing and Windows Warnings
-----------------------------
+https://app.ezwhy.com/wcopy/
 
-Signing Mode: NONE (unsigned)
+> WCopy is currently unsigned, so Windows may display a security or reputation warning.  
+> Please download WCopy only from the official ezWhy website.
 
-Windows may show a security or reputation warning for this unsigned release.
-This package does not claim Microsoft verification, a verified publisher or a
-SmartScreen guarantee. Download WCopy only from an official ezWhy source.
+## Why WCopy?
 
-Known Limitations
------------------
+Windows already has Clipboard History with `Win + V`.
 
-* Update checks notify the user; they do not automatically download or install
-  an update.
-* Global hotkeys can conflict with shortcuts registered by other applications.
+For many people, that's enough.
 
-Official Information and Support
---------------------------------
+But if you Copy and Paste all day, sometimes you want a little more:
 
-Official App Hub: https://app.ezwhy.com
-WCopy App Page: https://app.ezwhy.com/wcopy/
-Legal Information: https://app.ezwhy.com/legal
-Vietnamese Legal Page: https://app.ezwhy.com/vi/chinh-sach/
-Support: admin@ezwhy.com
+- Find something you copied earlier
+- Keep frequently used content
+- Organize reusable items
+- Paste without switching windows
+- Clean up text before pasting
+- Capture something that cannot simply be copied
 
-For detailed release changes, see CHANGELOG.txt. For release metadata, see
-VERSION.txt.
+WCopy was built around one simple idea:
+
+> **Copy once. Reuse when needed.**
+
+WCopy doesn't try to replace Word, Notepad, or note-taking apps.
+
+It simply tries to make one thing we do every day a little better:
+
+**Copy & Paste.**
+
+## Support
+
+Website: https://app.ezwhy.com/wcopy/  
+Email: admin@ezwhy.com
+
+---
+
+# WCopy — Tiếng Việt
+
+> **Bạn không làm mất thứ vừa copy. Bạn chỉ copy thêm một thứ khác sau đó.**
+
+WCopy là ứng dụng quản lý Clipboard dành cho Windows, giúp bạn tìm lại, sắp xếp và dùng lại những nội dung đã copy trước đó.
+
+Thay vì quay lại tab trình duyệt, file tài liệu hay đoạn chat cũ chỉ để copy lại một nội dung, WCopy giữ chúng sẵn để bạn dùng lại khi cần.
+
+## Tính năng
+
+- Lưu Lịch sử Clipboard cho chữ và hình ảnh
+- Tìm kiếm nội dung đã copy
+- Đã ghim
+- Yêu thích
+- Nội dung đã lưu
+- Bộ sưu tập
+- Quick Popup để dán nhanh
+- Quick Snip để chụp và đánh dấu màn hình
+- Import / Export
+- Giao diện Sáng / Tối / Theo Windows
+- Tiếng Anh / Tiếng Việt
+- Khởi động cùng Windows
+
+### Quick Snip
+
+Chụp nhanh một vùng trên màn hình và thêm:
+
+- Mũi tên
+- Đường thẳng
+- Hình chữ nhật
+- Hình elip
+- Màu sắc
+- Độ dày
+- Màu nền và độ trong suốt
+- Hoàn tác
+
+Sau đó **Lưu & sao chép** kết quả trực tiếp vào Clipboard.
+
+## Free & Pro
+
+WCopy Free đã có đầy đủ những tính năng chính để quản lý Clipboard hằng ngày.
+
+### Free
+
+- Lịch sử Clipboard
+- Tìm kiếm
+- Đã ghim
+- Yêu thích
+- Nội dung đã lưu
+- Bộ sưu tập
+- Quick Popup
+- Quick Snip
+- Import / Export
+- Quản lý Lịch sử và dung lượng lưu trữ
+
+### Pro
+
+WCopy Pro bổ sung:
+
+- **Dán thông minh** — xử lý nội dung trước khi dán
+- **Truy cập nhanh** — gọi nhanh những nội dung thường dùng trong Quick Popup
+
+WCopy Pro là giấy phép mua một lần.
+
+## Local First
+
+WCopy được xây dựng theo hướng **Local First**.
+
+Lịch sử Clipboard, hình ảnh, Yêu thích, Nội dung đã lưu, Bộ sưu tập và các nội dung dùng lại được lưu trên chính máy tính của bạn.
+
+Dữ liệu người dùng được lưu tại:
+
+`%APPDATA%\ezWhy\WCopy`
+
+## Yêu cầu hệ thống
+
+- Windows 10 / 11
+- 64-bit
+- Phiên bản hiện tại: **1.0.0**
+
+## Tải xuống
+
+Tải WCopy từ website chính thức:
+
+https://app.ezwhy.com/wcopy/
+
+> WCopy hiện chưa được ký số nên Windows có thể hiển thị cảnh báo bảo mật hoặc cảnh báo uy tín ứng dụng.  
+> Hãy tải WCopy từ website chính thức của ezWhy.
+
+## Vì sao tôi tạo WCopy?
+
+Windows đã có Clipboard History với `Win + V`.
+
+Với nhiều người, như vậy là đủ.
+
+Nhưng nếu mỗi ngày phải Copy/Paste rất nhiều, đôi khi tôi muốn thêm một chút:
+
+- Tìm lại thứ vừa copy trước đó
+- Giữ riêng những nội dung thường xuyên sử dụng
+- Sắp xếp chúng cho dễ tìm
+- Dán nhanh mà không cần chuyển cửa sổ
+- Xử lý một đoạn text trước khi dán
+- Chụp nhanh những thứ không thể copy trực tiếp
+
+WCopy được làm từ một ý rất đơn giản:
+
+> **Copy một lần. Dùng lại khi cần.**
+
+WCopy không cố thay thế Word, Notepad hay ứng dụng ghi chú.
+
+Nó chỉ cố làm tốt hơn một việc mà chúng ta làm rất nhiều lần mỗi ngày:
+
+**Copy & Paste.**
+
+## Hỗ trợ
+
+Website: https://app.ezwhy.com/wcopy/  
+Email: admin@ezwhy.com
