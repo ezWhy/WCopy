@@ -76,7 +76,7 @@ User data is stored under:
 
 - Windows 10 / 11
 - 64-bit
-- Current version: **1.0.0**
+- Current release: https://github.com/ezWhy/WCopy/releases/latest
 
 ## Download
 
@@ -197,7 +197,7 @@ Dữ liệu người dùng được lưu tại:
 
 - Windows 10 / 11
 - 64-bit
-- Phiên bản hiện tại: **1.0.0**
+- Bản phát hành hiện tại: https://github.com/ezWhy/WCopy/releases/latest
 
 ## Tải xuống
 
